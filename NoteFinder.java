@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 /**
- * Created by Administrator(尹心健2016214807) on 11/9/2016.
+ * Created by Administrator(TentYin) on 11/9/2016.
  */
 public class NoteFinder{
     public static void main(String[] args)throws IOException{
@@ -61,6 +61,6 @@ public class NoteFinder{
         }catch (Exception e){
             System.err.println("Error:");
             e.printStackTrace();
-        }//git@github.com:TentYin/TestLv2Finder.git
+        }
     }
 }
