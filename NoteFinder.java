@@ -7,7 +7,7 @@ public class NoteFinder{
     public static void main(String[] args)throws IOException{
         String filePath=args[0];
         ReadTxtFile(filePath);
-        System.out.println("FilePath: "+filePath);
+        System.out.println("File: "+filePath);
         Scanner sca=new Scanner(System.in );
         String keyWord=null;
         keyWord=sca.nextLine();
