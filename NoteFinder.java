@@ -5,17 +5,14 @@ import java.util.*;
  */
 public class NoteFinder{
     public static void main(String[] args)throws IOException{
-        System.out.println("Please input file path: ");
-        Scanner sc=new Scanner(System.in );
-        String filePath=null;
-        filePath=sc.nextLine();
+        String filePath=args[0];
         ReadTxtFile(filePath);
         System.out.println("FilePath: "+filePath);
-        System.out.println("Please input the keyword that you want to find: ");
-        Scanner scn=new Scanner(System.in );
+        Scanner sca=new Scanner(System.in );
         String keyWord=null;
-        keyWord=scn.nextLine();
+        keyWord=sca.nextLine();
         new NoteFinder().FindKeyWord(filePath,keyWord);
+    }
     }
     public static void ReadTxtFile(String filePath) {
         try {
